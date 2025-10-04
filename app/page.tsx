@@ -89,12 +89,14 @@ export default function Home() {
                   address: contractAddress as `0x${string}`,
                   abi: counterAbi,
                   functionName: "increment",
+                  gasPrice: BigInt(1_000_000_000), // ✅ custom gas price (1 gwei)
                 })
               }
               className="btn success"
             >
               Call increment()
             </button>
+
 
             <button
               onClick={() =>
