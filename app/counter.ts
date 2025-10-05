@@ -23,4 +23,4 @@ export const counterAbi = [
 ] as const;
 
 export const counterAddress =
-  "0x4a8AEd5b9153F5F9A70B29e53bB40fdC4FcB78ff"; // replace with your deployed contract
+  "0xa52D57bBdD75069F8d6E7ca86eF8E630c8EC9F9F"; // replace with your deployed contract
